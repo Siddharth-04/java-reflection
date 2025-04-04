@@ -68,7 +68,6 @@ public class GetClassInformation {
 
         for(Field f : field) {
             int modifiers = f.getModifiers();
-            String modifier = Modifier.toString(modifiers);
             System.out.println(f.getName() + "," + f.getType());
         }
 
@@ -81,3 +80,23 @@ public class GetClassInformation {
         }
     }
 }
+//Method Details
+//
+//setDepartmentName , void , public
+//setEmployees , void , public
+//getDepartmentID , int , public
+//setDepartmentID , void , public
+//getEmployees , int , public
+//getCompanyName , class java.lang.String , public
+//getDepartmentName , class java.lang.String , public
+//
+//Field Details
+//
+//companyName,class java.lang.String
+//departmentName,class java.lang.String
+//departmentID,int
+//employees,int
+//
+//Constructor Details
+//
+//com.bridgelabz.basicLevelProblems.Company
