@@ -1,4 +1,4 @@
-package com.bridgelabz.advanceLevelProblems;
+package com.bridgelabz.intermediateLevelProblems;
 
 import java.lang.reflect.Field;
 
